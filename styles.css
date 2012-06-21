@@ -1,0 +1,184 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* render html5 elements as block */
+header, footer, section, nav, article {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background: #e0e0e0 url(images/bg.jpg) repeat;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* layout */
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+nav {
+    height: 30px;
+    margin: 0 auto;
+    background: #b0b0b0;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#postswrapper {
+    margin: 0 auto;
+    background: #FFF;
+    overflow: auto;
+}
+
+#main {
+    list-style-type: none;
+}
+
+#main h1 {
+    display: block;
+    font-variant: small-caps;
+    padding: 8px 0px 13px 0px;
+    font-weight: bold;
+    line-height: 1.0em;
+    /*color: #000;*/
+}
+
+#main li {
+    width: inherit;
+    margin-top: 4px;
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-botom: 4px;
+    border: 2px solid #ddd;
+    border-left: 2px solid #00AEEF;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+#main li img {
+    padding-top: 10px;
+}
+
+#main li .thumbnail {
+    border: none;
+}
+
+#main li .caption {
+    display: block;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+#main li .byline {
+    font-variant: small-caps;
+    color: #000;
+}
+
+#main li p {
+    margin-top: 5px;
+}
+
+#loadmoreajaxloader {
+    display: none;
+}
+
+#loadmoreajaxloader img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    display: block;
+}
+
+footer {
+    height: 13px;
+    overflow: hidden;
+    filter:alpha(opacity=0);
+    opacity:0.0;
+}
+
+/* basics */
+
+h2,h3,h4,h5,h6 {
+    display: block;
+    font-variant: small-caps;
+    line-height: 1.5em;
+    /* padding: 10px 0; */
+    font-weight: bold;
+    color: #000;
+}
+
+a:link, a:visited {
+    color: #3F55CC;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #3F55CC;
+    text-decoration: none;
+}
+
+/* site title */
+
+h1 {
+    font-weight: bold;
+    font-family: 'Nova Square', cursive;
+    font-size: 40px;
+    padding: 15px 0 10px 15px;
+    /*padding: 10px*/
+}
+
+h1 a:link, a:visited {
+    color: #3F55CC;
+}
+
+h1 a:hover, a:active {
+    color: #3F55CC;
+}
+
+/* nav */
+
+nav .menu {
+font-weight: bold;
+}
+
+nav .menu ul {
+    margin: 0;
+    padding: 8px 20px;
+    list-style: none;
+    line-height: normal;
+}
+
+nav .menu li {
+    display: block;
+    float: left;
+    font-family: 'Nova Square', cursive;
+}
+
+nav .menu a {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+
+nav .menu a:hover {
+text-decoration: underline;
+color: #00AEEF;
+}
+
