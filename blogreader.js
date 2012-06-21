@@ -62,12 +62,9 @@ function getBlogPosts() {
 
     if (req) {
         req.open(method, url, true);
-        //req.setRequestHeader("X-STS-AccessToken", "50c8c4668c884867a1a248318d546a81");
-        //req.setRequestHeader("Api-Key", "8cba14125326a3d1ac9c99d5606c23cd");
         req.setRequestHeader("X-STS-AccessToken", token);
         req.setRequestHeader("Accept", "application/json");
         req.setRequestHeader("Content-Type", "application/json");
-        //req.onload = onLoad(req);
         req.onload = function () {
 
             if (req.readyState == 4) {

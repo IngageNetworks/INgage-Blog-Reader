@@ -52,7 +52,6 @@ function getBlogPost(id) {
 
     if (req) {
         req.open(method, url, true);
-        //req.setRequestHeader("Api-Key", "8cba14125326a3d1ac9c99d5606c23cd");
         req.setRequestHeader("X-STS-AccessToken", token);
         req.setRequestHeader("Accept", "application/json");
         req.setRequestHeader("Content-Type", "application/json");
